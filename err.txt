@@ -1,4 +1,3 @@
-
 # Solvara Safaris
 
 An ultra-luxury safari concierge web application targeting ultra-high net worth 
@@ -88,4 +87,79 @@ editorial aesthetic, and the Solvara brand identity.
 
 ## Getting Started
 ```bash
-}[39m
+# Clone the repository
+git clone https://github.com/mahakidnani/solvara.git
+
+# Navigate into the project
+cd solvara
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+Open `http://localhost:5173` in your browser.
+
+---
+
+## Project Structure
+```
+solvara/
+├── public/
+│   └── assets/          # Static images and media
+├── src/
+│   ├── components/      # Shared React components (Navbar, Footer, Cards)
+│   ├── pages/           # One file per route
+│   ├── data/            # Safari packages, destinations, species data arrays
+│   ├── styles/          # Global CSS and Tailwind config
+│   └── App.jsx          # Router configuration
+├── index.html
+├── vite.config.js
+└── tailwind.config.js
+```
+
+---
+
+## Key Design Decisions
+
+**Why dark aesthetic?** Competitor analysis showed every major safari brand 
+(Singita, &Beyond, Abercrombie & Kent) used light backgrounds with warm earthy 
+tones. A fully dark editorial aesthetic was an open competitive space and 
+positioned Solvara closer to luxury hospitality than outdoor adventure travel.
+
+**Why no prices?** Usability interviews revealed that price listings made sites 
+feel like commodities. All enquiries route through the Concierge page to 
+maintain a bespoke, consultative feel.
+
+**Why React?** Written approval from the course lecturer (Dr. Brent Kelly) was 
+obtained before development began, confirming React.js was acceptable given the 
+group's prior familiarity with the framework.
+
+**What didn't make it?** The interactive 3D globe, Virtual Verse immersive 
+audio environments, and full membership portal were scoped out due to time 
+constraints. The concierge form serves as the primary booking flow in their 
+place.
+
+---
+
+
+## Credits
+
+Photography sourced from Unsplash and Pexels. Full credits at 
+`/credits` on the live site.
+
+AI image generation: Google Gemini  
+AI video generation: Nano Banana Pro  
+Site architecture planning: Relume (relume.io)
+
+---
+
+## Licence
+
+Academic project — University of Galway, 2024–2025.  
+Not for commercial use.
