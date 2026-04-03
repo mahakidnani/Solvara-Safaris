@@ -1,86 +1,91 @@
 
-> solvara-safaris@0.0.0 build
-> vite build
+# Solvara Safaris
 
-[36mvite v8.0.2 [32mbuilding client environment for production...[36m[39m
-[2Ktransforming...✓ 2134 modules transformed.
-rendering chunks...
-\n[33m[lightningcss minify] Unknown at rule: @tailwind
-1  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,...
-2  |  
-3  |  @tailwind base;
-   |           ^
-4  |  
-5  |  @tailwind components;[39m
-[33m[lightningcss minify] Unknown at rule: @tailwind
-3  |  @tailwind base;
-4  |  
-5  |  @tailwind components;
-   |           ^
-6  |  
-7  |  @tailwind utilities;[39m
-[33m[lightningcss minify] Unknown at rule: @tailwind
-5  |  @tailwind components;
-6  |  
-7  |  @tailwind utilities;
-   |           ^
-8  |  
-9  |  @layer base {[39m
-[33m[lightningcss minify] Unknown at rule: @apply
-9  |  @layer base {
-10 |    body {
-11 |      @apply bg-primary-dark text-text-primary font-sans antialiased overflow-x-hidden;
-   |            ^
-12 |    }
-13 |    [39m
-[33m[lightningcss minify] Unknown at rule: @apply
-13 |    
-14 |    h1, h2, h3, h4, h5, h6 {
-15 |      @apply font-serif font-normal tracking-wide;
-   |            ^
-16 |    }
-17 |  }[39m
-[33m[lightningcss minify] Unknown at rule: @apply
-19 |  @layer utilities {
-20 |    .glass-panel {
-21 |      @apply bg-white/5 backdrop-blur-md border border-white/10;
-   |            ^
-22 |    }
-23 |    [39m
-[31m✗[39m Build failed in 1.89s
-[31merror during build:
-[31mBuild failed with 3 errors:
+An ultra-luxury safari concierge web application targeting ultra-high net worth 
+individuals, family offices, and personal managers. Built as a university web 
+development group project.
 
-[31m[MISSING_EXPORT] Error:[0m "Instagram" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.js".
-   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/layout/Footer.jsx:2:10 [38;5;246m][0m
-   [38;5;246m│[0m
- [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0mInstagram[38;5;249m,[0m[38;5;249m [0m[38;5;249mT[0m[38;5;249mw[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mF[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249me[0m[38;5;249mb[0m[38;5;249mo[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mM[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[38;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
- [38;5;240m  │[0m          ────┬────  
- [38;5;240m  │[0m              ╰────── Missing export
-[38;5;246m───╯[0m
+**Live site:** https://solvara-xi.vercel.app  
+**GitHub:** https://github.com/mahakidnani/solvara
 
-[31m[MISSING_EXPORT] Error:[0m "Twitter" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.js".
-   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/layout/Footer.jsx:2:21 [38;5;246m][0m
-   [38;5;246m│[0m
- [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mI[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mg[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249m,[0m[38;5;249m [0mTwitter[38;5;249m,[0m[38;5;249m [0m[38;5;249mF[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249me[0m[38;5;249mb[0m[38;5;249mo[0m[38;5;249mo[0m[38;5;249mk[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mM[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[38;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
- [38;5;240m  │[0m                     ───┬───  
- [38;5;240m  │[0m                        ╰───── Missing export
-[38;5;246m───╯[0m
+---
 
-[31m[MISSING_EXPORT] Error:[0m "Facebook" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.js".
-   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/layout/Footer.jsx:2:30 [38;5;246m][0m
-   [38;5;246m│[0m
- [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mI[0m[38;5;249mn[0m[38;5;249ms[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mg[0m[38;5;249mr[0m[38;5;249ma[0m[38;5;249mm[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mT[0m[38;5;249mw[0m[38;5;249mi[0m[38;5;249mt[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m,[0m[38;5;249m [0mFacebook[38;5;249m,[0m[38;5;249m [0m[38;5;249mM[0m[38;5;249ma[0m[38;5;249mi[0m[38;5;249ml[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[38;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
- [38;5;240m  │[0m                              ────┬───  
- [38;5;240m  │[0m                                  ╰───── Missing export
-[38;5;246m───╯[0m
-[31m
-    at aggregateBindingErrorsIntoJsError (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/rolldown/dist/shared/error-D8cGyrC7.mjs:48:18)
-    at unwrapBindingResult (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/rolldown/dist/shared/error-D8cGyrC7.mjs:18:128)
-    at #build (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/rolldown/dist/shared/rolldown-build-CL9PyQ2E.mjs:3313:34)
-    at async buildEnvironment (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/vite/dist/node/chunks/node.js:32829:64)
-    at async Object.build (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/vite/dist/node/chunks/node.js:33251:19)
-    at async Object.buildApp (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/vite/dist/node/chunks/node.js:33248:153)
-    at async CAC.<anonymous> (file:///C:/Users/tavde/Downloads/solvara-safaris/node_modules/vite/dist/node/cli.js:778:3) {
-  errors: [Getter/Setter]
+## Project Overview
+
+Solvara Safaris is not a standard travel booking site. It is designed as a 
+private digital estate — the online equivalent of a bespoke concierge service. 
+The site covers twelve African safari destinations and provides end-to-end 
+journey curation from doorstep collection to post-trip memory book delivery.
+
+The project began as an earlier prototype called WildVerse (built by a team 
+member), which had strong technical foundations but no defined target audience 
+or brand direction. After structured design thinking sessions and competitor 
+analysis — referencing Singita, Abercrombie & Kent, and &Beyond — the team 
+pivoted to a fully redefined concept with a clear UHNWI audience, dark 
+editorial aesthetic, and the Solvara brand identity.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | React.js 18 (with lecturer approval) |
+| Build tool | Vite |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Routing | React Router v6 |
+| Deployment | Vercel |
+| Version control | GitHub |
+| Site structure planning | Relume |
+| Visual editing | Antigravity |
+| Image generation | Google Gemini |
+| Video generation | Nano Banana Pro |
+
+---
+
+## Pages
+
+| Route | Page | Description |
+|---|---|---|
+| `/` | Homepage | Hero, personalisation gateway, destinations strip, services, membership |
+| `/expeditions` | Expedition Collection | Filterable safari packages by destination and type |
+| `/destinations` | The Atlas | 12 destination overview cards |
+| `/destinations/:id` | Destination Detail | Per-destination Virtual Verse, lodges, experiences, wildlife calendar |
+| `/wildlife` | Wildlife Guide | Species grid with filtering |
+| `/private-jets` | Private Jets | Fleet showcase and aviation enquiry |
+| `/accommodation` | Accommodation | Lodge and villa collection |
+| `/conservation` | Conservation | Pledge tracker and partner organisations |
+| `/membership` | Solvara Private | Three-tier membership — Pathfinder, Dynasty, Sovereign |
+| `/concierge` | Concierge | 4-step enquiry wizard |
+| `/dashboard` | Private Portal | Client journeys, conservation impact, loyalty status |
+| `/credits` | Credits | Full photography and asset credits |
+
+---
+
+## Design System
+
+**Colour palette:**
+
+| Token | Hex | Usage |
+|---|---|---|
+| Ink Black | `#0F0E0B` | Primary background |
+| Charcoal | `#1A1815` | Secondary sections |
+| Forest Green | `#3B4A3F` | Rich accent sections |
+| Plum | `#4A2D35` | Membership section |
+| Inky Blue | `#3A4455` | CTA sections |
+| Gold | `#C9A84C` | All accents, CTAs, highlights |
+| Warm Cream | `#E8DFCC` | Primary text |
+| Mushroom Taupe | `#B5A48A` | Body copy, muted text |
+
+**Typography:**
+- Display / Hero: Cormorant Garamond (300–500, italic)
+- Titles / Navigation: Cinzel (400–500)
+- Body copy: EB Garamond (400–500)
+- UI labels / Buttons: Lato (200–400)
+
+---
+
+## Getting Started
+```bash
 }[39m
